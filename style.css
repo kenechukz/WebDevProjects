@@ -1,0 +1,148 @@
+/* Mobile Devices */
+
+@media (max-width: 680px){
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #525CEB;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    color: #F8EDFF;
+    position: relative;
+    left: 50px;
+  }
+  .main {
+    flex: 1;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  footer {
+    text-align: right;
+    color: midnightblue;
+  }
+
+  .tile-image{
+    clear: both;
+    width: 300px;
+    height: 200px;
+  }
+
+  h2 {
+    display: block;
+    position: relative;
+    left: 20px;
+    margin: 8px;
+  }
+
+
+  p{
+    width: 400px;
+    height: 350px;
+    display: inline;
+    position: relative;
+    left: 20px;
+    font-size: 15px;
+  }
+
+  .creative {
+    color: purple;
+  }
+
+  .left.card, .right.card {
+    width: 300px;
+    height: 400px;
+  }
+  p.card-text {
+    width: 300px;
+    height: 200px;
+  }
+
+  p.card-title {
+    width: 300px;
+    height: 56px;
+  }
+}
+
+
+
+
+
+/* Non mobile devices */  
+@media (min-width: 681px){
+  body {
+    font-family: "Poppins", sans-serif;
+    margin: 50px 50px 0 50px;
+    background-color: #525CEB;
+    display: flex;
+    flex-direction: column;
+    min-height: 95vh;
+    color: #F8EDFF;
+  }
+  .main {
+    flex: 1;
+  }
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  footer {
+    text-align: right;
+    color: midnightblue;
+  }
+
+  .tile-image{
+    clear: both;
+    width: 300px;
+    height: 200px;
+    float: left;
+  }
+
+  h2 {
+    display: block;
+    position: relative;
+    left: 20px;
+    margin: 8px;
+  }
+
+
+  p{
+    width: 400px;
+    height: 350px;
+    display: inline;
+    position: relative;
+    left: 20px;
+    font-size: 15px;
+  }
+
+  .left.card, .right.card {
+    width: 500px;
+    height: 200px;
+    display: inline-block;
+
+  }
+
+  .left.card {
+    margin-right: 300px;
+    
+  }
+
+  .right.card {
+    position: relative;
+    top: 30px;
+  }
+
+  #right-card-text {
+    position: relative;
+    bottom: 10px;
+  }
+  #right-card-title {
+    position: right;
+    bottom: 10px;
+  }
+}
+
